@@ -1,10 +1,9 @@
 import Link from "next/link";
+import { API_URL } from "./components/constant";
 
 export const metadata = {
   title: "Home",
 };
-
-export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 const getMovies = async () => {
   // await new Promise((resolve) => setTimeout(resolve, 5000));

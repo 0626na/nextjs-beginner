@@ -1,4 +1,4 @@
-import { API_URL } from "../../page";
+import { API_URL } from "../../components/constant";
 
 async function MovieTitle({ id }) {
   const title = await getMovieInfo(id);
